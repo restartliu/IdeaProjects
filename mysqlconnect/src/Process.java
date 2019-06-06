@@ -5,9 +5,9 @@ public class Process {
 
     public Statement connect(String user, String password, Frame ui) {
         // 驱动程序名
-        String driver = "org.mariadb.jdbc.Driver";
+        String driver = "com.mysql.cj.jdbc.Driver";
         // URL指向要访问的数据库名world
-        String url = "jdbc:mariadb://localhost:3306/sqltestdb";
+        String url = "jdbc:mysql://127.0.0.1:3306/sqltestdb?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true";
 
         Connection conn = null;
         Statement statement = null;

@@ -28,7 +28,7 @@ public class UI {
                 UIload.setVisible(false);
             }
         });
-        Button Cancel = new Button("Cancel");Hello Jsp Hello world...
+        Button Cancel = new Button("Cancel");
         Cancel.addActionListener(new cancelActionListened());
         Panel buttonload = new Panel(new FlowLayout(FlowLayout.CENTER,50,10));
         buttonload.add(Connect);
