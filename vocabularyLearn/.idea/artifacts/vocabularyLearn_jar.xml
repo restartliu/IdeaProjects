@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="vocabularyLearn:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/vocabularyLearn_jar</output-path>
+    <root id="archive" name="vocabularyLearn.jar">
+      <element id="module-output" name="vocabularyLearn" />
+    </root>
+  </artifact>
+</component>
